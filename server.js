@@ -23,6 +23,8 @@ app.use(function(req,res,next){
     next();
 });
 
+app.use(routes);
+
 //Start our server so it can begin listening to client requests
 app.listen(PORT, function() {
     //log server-side when our server has started

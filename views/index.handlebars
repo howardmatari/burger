@@ -1,21 +1,21 @@
 <h1>Eat a Burger</h1>
 
-<h2>Make a Burger</h2>
+<h2>Create a Burger</h2>
 
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-      {{> burgers/burger-block devour=true}}
+     {{ burgers/burger-block devour=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2>Place holder</h2>
+<h2></h2>
 
 <ul>
   {{#each burger}}
     {{#if devoured}}
-      {{> burgers/burger-block devour=false}}
+      {{ burgers/burger-block devour=false}}
     {{/if}}
   {{/each}}
 </ul>
@@ -35,4 +35,5 @@
   </div>
 
   <button type="submit">Add Burger</button>
+  <button type="submit">Delete Burger</button>
 </form>
