@@ -1,7 +1,7 @@
 //router connections file
 
 const express = require("express");
-const connection = require("../config/connection.js");
+//const connection = require("../config/connection.js");
 // Import the model (burger.js) to use its database functions.
 const burger = require("../models/burger.js");
 
