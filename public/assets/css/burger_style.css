@@ -8,7 +8,7 @@ li {
     font-weight: bold;
   }
   
-  .create-update-form {
+  .create-form {
     padding: 5px;
     margin: 5px;
     background: aqua;
@@ -16,5 +16,22 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+  }
+  h1 {
+    background-color: green;
+  }
+  
+  div {
+    background-color: lightblue;
+  }
+  
+  p {
+    background-color: yellow;
+  }
+  body {
+    background-image: url("../assets/img/burger.png");
+    padding: 100px;
+    margin: 100px;
+    
   }
   
